@@ -9,6 +9,8 @@ Analyzes 8,000+ titles from Netflix to uncover content trends, audience preferen
 
 <br>
 
+---
+
 ## 📊 Dashboard Overview
 
 <br>
