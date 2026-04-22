@@ -5,14 +5,6 @@ Built using Power BI, with SQL for data transformation and Excel for preprocessi
 
 <br>
 
-## 🛠️ Tools Used
-
-* Power BI
-* SQL
-* Excel
-
-<br>
-
 ## 📌 Problem Statement
 
 Netflix hosts a vast and diverse content library across multiple genres, countries, and audience segments.
@@ -20,46 +12,36 @@ The objective of this project is to analyze content trends and audience preferen
 
 <br>
 
-## 📊 Dataset
+## 🚀 Key Highlights
+- Processed and analyzed 8,000+ Netflix titles to uncover content trends
+- Transformed denormalized multi-column data (cast, directors, countries, categories) into structured tables using SQL
+- Built an interactive Power BI dashboard with dynamic filters and drilldowns
+- Identified key patterns in genre popularity, content growth, and regional distribution
+- Designed a scalable data model to support efficient analysis and reporting
+- Delivered actionable insights to support content strategy and decision-making
 
-* Source: Netflix Titles Dataset
-* Records: 8,000+ titles
-* Key Fields: Title, Genre, Rating, Release Year, Country,Duration, Director, Cast, Listed In, Description ✅
-* Format: CSV files
-* Preprocessing done using Excel and SQL
+<br>
+
+## 📊 Dashboard Overview
+![Dashboard Overview](Images/1_dashboard_overview.png)
+
+## 🌍 Global Insights
+![Global Insights](Images/3_global_insights.png)
+
+## 🔍 Title Drilldown Analysis
+![Title Drilldown](Images/4_title_drilldown.png)
+
+## 💡 Insights & Strategy
+![Insights Strategy](Images/2_insights_strategy.png)
 
 <br>
 
 ## ⚙️ Workflow
-
-1. Data Source:
-
-   * Received raw dataset in Excel (.csv format)
-
-2. Data Cleaning (Excel):
-
-   * Handled missing/null values
-   * Structured data into organized worksheets
-
-3. Data Transformation (SQL):
-
-   * Converted denormalized data (multiple cast/country columns) into structured format
-   * Used SQL UNION to combine columns into a single column
-   * Removed duplicate entries to ensure clean dataset
-
-4. Data Preparation:
-
-   * Exported cleaned data into CSV format
-
-5. Visualization (Power BI):
-
-   * Imported datasets into Power BI
-   * Built data model and relationships
-   * Designed interactive dashboards
-
-6. Insight Generation:
-
-   * Analyzed content trends and audience preferences to generate actionable business insights
+- Collected and explored Netflix dataset (CSV format)
+- Cleaned and structured data using Excel
+- Transformed denormalized data using SQL (UNION operations)
+- Built data model and relationships in Power BI
+- Designed interactive dashboards and generated insights
 
 <br>
 
@@ -87,21 +69,14 @@ The objective of this project is to analyze content trends and audience preferen
 
 <br>
 
-## 📊 Dashboard Overview
-![Dashboard Overview](Images/1_dashboard_overview.png)
-
-## 🌍 Global Insights
-![Global Insights](Images/3_global_insights.png)
-
-## 🔍 Title Drilldown Analysis
-![Title Drilldown](Images/4_title_drilldown.png)
-
-## 💡 Insights & Strategy
-![Insights Strategy](Images/2_insights_strategy.png)
+## 📈 Business Impact
+- Enables content teams to identify high-performing genres for strategic investment
+- Supports regional expansion by highlighting country-wise content trends
+- Helps optimize content acquisition decisions using data-driven insights
+- Identifies growth opportunities based on historical content release patterns
+- Assists in targeting audience preferences to improve engagement and retention
 
 <br>
-
-
 
 ## 💡 Recommendations
 
@@ -110,6 +85,24 @@ The objective of this project is to analyze content trends and audience preferen
 - Focus on **TV Shows growth strategy**, as they demonstrate steady long-term expansion  
 - Maintain consistent content releases to avoid post-2020 decline trends  
 - Expand presence in **emerging markets (Asia & Europe)** to capture growing audiences
+
+<br>
+
+## 🛠️ Tools Used
+
+* Power BI
+* SQL
+* Excel
+
+<br>
+
+## 📊 Dataset
+
+* Source: Netflix Titles Dataset
+* Records: 8,000+ titles
+* Key Fields: Title, Genre, Rating, Release Year, Country, Duration, Director, Cast, Listed In, Description ✅
+* Format: CSV files
+* Preprocessing done using Excel and SQL
 
 <br>
 
@@ -122,5 +115,13 @@ The objective of this project is to analyze content trends and audience preferen
 - 📄 **README.md** – Complete project documentation
 <br>
 
+## ▶️ How to Use
 
+1. Clone or download this repository to your local system  
+2. Open the Power BI file from the `/Power BI` folder using Power BI Desktop  
+3. Load the dataset from the `/data` folder if prompted  
+4. Explore the dashboard using filters, slicers, and visuals  
+5. Analyze trends in content distribution, genres, and regional patterns
+
+<br>
 
